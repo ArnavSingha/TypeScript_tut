@@ -142,3 +142,49 @@
 //     else return n*m*l;
 // };
 
+
+// Default peramiter
+
+
+// type FuncType = (n: number, m: number, l: number)=> number | string;
+
+// const addFunc : FuncType = (n ,m ,l=20)=> {
+//     return n*m*l;
+// };
+
+
+// Rest Operator
+
+// type FuncType = (...m: number[]) => number[];
+
+// const func: FuncType = (...m)=> {
+//     return m;
+// }
+
+// func(45,89,45,20,45);
+
+
+// ----------------------------------------------------------------function with objects
+
+// type GetDataType = (product: {name:string, stock:number, price:number, photo:string}) => void
+
+// const getData: GetDataType = (product) =>{
+//     console.log(product);
+// }
+
+
+
+// function creatCourse():{name: string, price: number}{
+//     return{name: "react", price: 562}
+// }
+
+
+type User = {
+    name: string,
+    email: string,
+    isActive: boolean 
+}
+
+function creatUser(user: User){
+    
+}
